@@ -5,6 +5,14 @@ body {
   font-family: 'Lato', sans-serif;
   color: #505962;
 }
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/*============= HOME SECTION =============*/
 
 /*--- Navigation ---*/
 .navbar {
@@ -66,7 +74,9 @@ body {
 
 
 
-/*============= COURSE SECTION =============*/
+
+
+/*============= ABOUT SECTION =============*/
 
 .narrow {
   width: 75%;
@@ -76,6 +86,7 @@ body {
 .narrow h1 {
     font-size: 2.4rem;
   }
+
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
@@ -93,6 +104,38 @@ body {
   background-color: #189582;
   color: white;
 }
+
+
+
+/*============= EDUCATION SECTION =============*/
+.myInfo{
+    font-size: 1.3rem;
+}
+.jumbotron{
+  margin-bottom; 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+.heading-underline{
+  width: 3rem;
+  height: .2rem;
+  background-color: #1ebba3;
+  margin: 0 auto 2rem;
+}
+
+.feature svg.svg-inline--fa{
+  color: #1ebba3;
+}
+
+
+
+
 
 
 /*============ BOOTSTRAP BREAK POINTS:
