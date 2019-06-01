@@ -104,15 +104,17 @@ body {
   background-color: #189582;
   color: white;
 }
-
-
-
-/*============= EDUCATION SECTION =============*/
 .myInfo{
     font-size: 1.3rem;
 }
+
+
+/*============= EDUCATION SECTION =============*/
+.myEducationalInfo{
+    font-size: 1.3rem;
+}
 .jumbotron{
-  margin-bottom; 0;
+  margin-bottom: 0rem;
   padding: 2rem 0 3.5rem;
   border-radius: 0;
 }
@@ -128,9 +130,75 @@ h3.heading {
   background-color: #1ebba3;
   margin: 0 auto 2rem;
 }
-
 .feature svg.svg-inline--fa{
   color: #1ebba3;
+}
+.feature h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+.feature p {
+  font-size: 1.1rem;
+}
+.fixed {  
+  background-image: url(img/apple.png);
+  z-index: -1;
+}
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+.fixed-background h5 {
+  margin-bottom: 2rem;
+}
+.fixed-background p {
+  margin-top: 1.5rem;
+}
+
+
+
+/*============= CONTACT SECTION =============*/
+.contactInfo img {
+  width: 100%;
+  border-radius: 50%;
+}
+blockquote .svg-inline--fa {
+  color: #1ebba3;
+  margin: 1rem;
+}
+.contact-hr {
+  border-top: .05rem solid #1ebba3;
+}
+
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: white;
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover{
+  color: #1ebba3!important;
+}
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
 }
 
 
